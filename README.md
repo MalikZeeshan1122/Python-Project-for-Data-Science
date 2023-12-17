@@ -5,17 +5,16 @@ Certainly! Web scraping is the process of extracting information from websites. 
 
 Here's a brief overview of using BeautifulSoup for web scraping:
 
-Step 1: Install BeautifulSoup
+# Step 1: Install BeautifulSoup
 Before you start, make sure to install BeautifulSoup. You can do this using pip:
 
-bash
-Copy code
-pip install beautifulsoup4
-Step 2: Fetching the Web Page
+
+# pip install beautifulsoup4
+
+# Step 2: Fetching the Web Page
 You'll need to fetch the HTML content of the web page you want to scrape. You can use the requests library for this.
 
-python
-Copy code
+
 import requests
 
 url = "https://example.com"
